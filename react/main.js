@@ -83,8 +83,8 @@
               <div className="w-12 h-12 mx-auto mb-4 rounded-lg bg-zinc-900 dark:bg-white text-white dark:text-zinc-900 flex items-center justify-center text-xl">
                 <i className="ri-t-shirt-air-line"></i>
               </div>
-              <h1 className="text-xl font-bold text-zinc-900 dark:text-white tracking-tight">Ziro Sablon</h1>
-              <p className="text-sm text-zinc-500 dark:text-zinc-400 mt-2">Sistem Manajemen</p>
+              <h1 className="text-xl font-bold text-zinc-900 dark:text-white tracking-tight">System Managemen</h1>
+              <p className="text-sm text-zinc-500 dark:text-zinc-400 mt-2">Screen Printing</p>
             </div>
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
@@ -140,7 +140,7 @@
           <div className={`menu-overlay ${isOpen ? 'open' : ''}`} onClick={()=>setIsOpen(false)}></div>
           <div id="sidebar" className={`sidebar w-full md:w-64 h-full flex flex-col ${isOpen ? 'open' : ''}`}>
             <div className="h-14 flex items-center px-6 border-b border-zinc-200 dark:border-zinc-800">
-              <span className="font-semibold text-zinc-900 dark:text-white"><span className="ri-building-line text-2xl"></span> Ziro Sablon</span>
+              <span className="font-semibold text-zinc-900 dark:text-white"><span className="ri-building-line text-2xl"></span> System Managemen</span>
             </div>
             <nav className="flex-1 p-4 space-y-1 overflow-y-auto">
               {items.map(item => (
@@ -471,7 +471,7 @@
           <div style="font-family: 'Inter', sans-serif; color: #000;">
             <!-- HEADER -->
             <div style="text-align: center; margin-bottom: 30px; border-bottom: 2px solid #000; padding-bottom: 10px;">
-              <h1 style="margin:0; font-size: 24px; text-transform: uppercase; font-weight: 800; letter-spacing: -0.5px;">PT. ZIRO SABLON</h1>
+              <h1 style="margin:0; font-size: 24px; text-transform: uppercase; font-weight: 800; letter-spacing: -0.5px;">System Managemen</h1>
               <p style="margin:5px 0; font-size: 14px; font-weight: 500;">Laporan Rekapan Operasional & Keuangan</p>
               <p style="margin:5px 0; font-size: 12px; color: #666;">${dateRangeText}</p>
             </div>
@@ -579,7 +579,7 @@
 
             <!-- FOOTER -->
             <div style="margin-top: 50px; border-top: 1px solid #ccc; padding-top: 10px; text-align: center; font-size: 10px; color: #666;">
-              <p>Dokumen ini dihasilkan secara otomatis oleh Sistem Manajemen Ziro Sablon.</p>
+              <p>Dokumen ini dihasilkan secara otomatis oleh System Managemen.</p>
               <p>Harap simpan file ini sebagai arsip digital jika diperlukan.</p>
             </div>
           </div>
@@ -739,7 +739,7 @@
               <div className="flex justify-between items-end mb-8 pb-4 border-b border-zinc-200 dark:border-zinc-800">
                 <div>
                   <h1 className="text-2xl font-bold text-zinc-900 dark:text-white capitalize tracking-tight">{page.replace('-', ' ')}</h1>
-                  <p className="text-sm text-zinc-500 dark:text-zinc-400 mt-1">Sistem Manajemen PT. Ziro Sablon</p>
+                  <p className="text-sm text-zinc-500 dark:text-zinc-400 mt-1"> System Managemen</p>
                 </div>
                 <div className="text-right sm:block">
                   <div className="text-xs font-medium text-zinc-900 dark:text-white bg-zinc-100 dark:bg-zinc-800 px-2 py-1 rounded inline-flex items-center gap-1 animate-pulse"><span className="w-2 h-2 rounded-full bg-green-500"></span> ZIRO SERVER DEMO</div>
